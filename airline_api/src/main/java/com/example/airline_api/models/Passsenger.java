@@ -12,7 +12,7 @@ public class Passsenger {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "phone_number")
+    @Column(name = "phoneNumber")
     private int phoneNumber;
 
     public Passenger(String name, int phoneNumber){
